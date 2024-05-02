@@ -5,7 +5,6 @@
     <RootNamespace>calculator_nuget</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Title>calculator-nuget</Title>
 	<RepositoryUrl>https://github.com/therealtejareddy/calculator-nuget</RepositoryUrl>
   </PropertyGroup>
