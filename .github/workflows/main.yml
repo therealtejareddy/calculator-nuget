@@ -57,7 +57,7 @@ jobs:
       run: dotnet nuget add source --username therealtejareddy --password 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 --store-password-in-clear-text --name github "https://nuget.pkg.github.com/therealtejareddy/index.json"
     - name: Push package to GitHub packages 
       if: needs.build.outputs.CommitsSinceVersionSource > 0 #Only release if there has been a commit/version change  
-      run: dotnet nuget push nugetPackage/*.nupkg --source "github"
+      run: dotnet nuget push nugetPackage/*.nupkg --api-key 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 --source "github"
     
     #Create release
     - name: Create Release
